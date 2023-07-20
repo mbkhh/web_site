@@ -14,13 +14,14 @@
   # database: db/development.sqlite3
 
 development:
-  adapter: mysql
+  adapter: mysql2
   encoding: utf8
   database: EESITE
   pool: 5
   username: root
-  password: 'my@Newpassw0rd'
-  socket: /var/run/mysqld/mysql.sock
+  password: 'root'
+  host: localhost
+  #socket: /var/run/mysqld/mysql.sock
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
